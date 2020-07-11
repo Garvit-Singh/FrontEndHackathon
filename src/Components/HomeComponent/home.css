@@ -1,0 +1,42 @@
+#home-header{
+  margin-top: 75px;
+  margin-bottom: 25px;
+  color: #239B56;
+  font-weight: lighter;
+}
+#information-section {
+  background-color: #EAFAF1 ;
+  /* background-color: rgba(234, 250, 241,0.7); */
+}
+.subsection {
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+.subsection .title-color{
+  margin-top: 15px;
+  color: #239B56;
+}
+
+@media (max-width: 575.98px) {
+  .reverse-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.fotter{
+  color: #82E0AA;
+}
+.fotter-title{
+  margin: 10px;
+  font-weight: lighter;
+}
+.fotter-content{
+  margin: 5px;
+}
+.list-color{
+  color: #fff;
+  outline: none;
+  border: 0px;
+  margin-bottom: 2px;
+}
