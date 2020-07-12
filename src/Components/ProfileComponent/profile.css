@@ -6,3 +6,8 @@
 .profile-activity{
   border: 1px solid black;
 }
+
+#NGO_Logo {
+	background: linear-gradient(to bottom, white, #98fb98);
+	color: black;
+}
