@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Home from "./HomeComponent/Home";
 import Profile from "./ProfileComponent/Profile";
 import Search from "./SearchComponents/Search";
+import Login from './LoginComponent/Login';
+import Register from './RegistrationComponent/Register';
 
 class Pages extends Component {
     render() { 
@@ -11,6 +13,10 @@ class Pages extends Component {
             return(<Profile/>)
         } else if(this.props.flag === 2) {
             return(<Search/>)
+        } else if( this.props.flag === 3) {
+            return (<Login />)
+        } else if( this.props.flag === 4) {
+            return (<Register />)
         }
     }
 }

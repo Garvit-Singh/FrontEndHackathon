@@ -29,6 +29,18 @@ class App extends Component {
       flag: 2
     })
   }
+  
+  handleChangeToLogin = () => {
+    this.setState({
+      flag: 3
+    })
+  }
+  
+  handleChangeToRegister = () => {
+    this.setState({
+      flag: 4
+    })
+  }
 
 
   render() {
@@ -39,6 +51,8 @@ class App extends Component {
           handleChangeToHome = {this.handleChangeToHome}
           handleChangeToProfile = {this.handleChangeToProfile}
           handleChangeToSearch = {this.handleChangeToSearch}
+          handleChangeToLogin = {this.handleChangeToLogin}
+          handleChangeToRegister = {this.handleChangeToRegister}
         />
         <Pages flag={this.state.flag} />
       </div>

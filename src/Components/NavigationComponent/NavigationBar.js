@@ -15,9 +15,9 @@ class NavigationBar extends Component {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="#Official Website">Register</Nav.Link>
+              <Nav.Link href="#Official Website" onClick = {this.props.handleChangeToRegister}>Register</Nav.Link>
               <Nav.Link href="#contact" onClick = {this.props.handleChangeToSearch}>Category</Nav.Link>
-              <Nav.Link href="#login" onClick = {this.props.handleChangeToProfile}>Login</Nav.Link>
+              <Nav.Link href="#login" onClick = {this.props.handleChangeToLogin}>Login</Nav.Link>
             </Nav>
           <Form inline>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
