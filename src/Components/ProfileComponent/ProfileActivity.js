@@ -9,7 +9,6 @@ class ProfileActivity extends Component {
 	};
 	return() {
 		<React.Fragment>
-			<div className="row no-gutters">
 				<div className="col-md-8 profile-activity">
 					<h3>Recent Activities</h3>
 					<div id="recentActivities" className="carousel slide carousel-fade" data-ride="carousel">
@@ -39,7 +38,6 @@ class ProfileActivity extends Component {
 						<span className="sr-only">Next</span>
 					</a>
 				</div>
-			</div>
 		</React.Fragment>;
 	}
 }
