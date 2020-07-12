@@ -4,19 +4,19 @@ function ProfileHeader() {
   return (
     <React.Fragment>
       <div className="text-left profile-header" id="ngo-id">
-        <h3 className="ngo-name">
+        <h3 className="heading-details ngo-name">
           ngo-name
         </h3>
-        <p className="ngo-description">
-          ngo-description
-        </p>
-        <p className="ngo-aim">
+        <p className="para-details ngo-aim">
           ngo-aim
         </p>
-        <p className="ngo-catergory">
+        <p className="para-details ngo-description">
+          ngo-description
+        </p>
+        <p className="para-details ngo-catergory">
           ngo-category
         </p>
-        <p className="ngo-contact_Info">
+        <p className="para-details ngo-contact_Info">
           ngo-contact_Info
         </p>
       </div>

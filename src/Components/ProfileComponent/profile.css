@@ -1,13 +1,25 @@
 .profile-header{
-  background-color: #82E0AA ;
+  background-color: #D5F5E3;
+  margin-top: 40px;
   padding: 25px 50px;
   font-weight: lighter;
 }
 .profile-activity{
-  border: 1px solid black;
+  margin-top: 25px;
 }
-
+.heading-details{
+  margin-bottom: 20px;
+  font-style: italic;
+}
+.para-details {
+  /* margin: 0px; */
+  padding-bottom: 5px;
+  margin-bottom: 0px;
+}
 #NGO_Logo {
 	background: linear-gradient(to bottom, white, #98fb98);
 	color: black;
+}
+.transaction-panel{
+  margin-top: -100px;
 }
