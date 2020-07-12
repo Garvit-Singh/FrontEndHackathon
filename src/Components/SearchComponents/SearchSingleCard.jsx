@@ -8,12 +8,12 @@ class SingleSearchCard extends Component {
 				<div id="NGO_Logo" className="card text-center mt-5 search-card">
 					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT7ksGePhqK2pmADi026E4mmLluawPAHtyOhA&usqp=CAU" className="card-img-top" alt="..." />
 					<div className="card-body">
-							<h5 className="card-title">Card title</h5>
+							<h5 className="card-title">{this.props.user.ngoName}</h5>
 							<p className="card-text">
-								Some quick example text to build on the card content
+								{this.props.user.ngoAim}
 							</p>
 						<a href="#1" className="btn btn-outline-success">
-							Get More
+							See More
 						</a>
 					</div>
 				</div>
