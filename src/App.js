@@ -1,25 +1,49 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import NavigationBar from './Components/NavigationComponent/NavigationBar';
-import Home from './Components/HomeComponent/Home';
-import Profile from './Components/ProfileComponent/Profile';
-import SearchPage from './Components/SearchComponents/Search';
+import Pages from './Components/Page'
 
-const spacing = {
-  margin: "100px"
-}
-function App() {
-  return (
-    <div className="App">
-      <NavigationBar />
-      <Home />
-      <div style={spacing}>
-        Spacing
+class App extends Component {
+  constructor(props){
+    super(props);
+    this.state={
+      flag: 0
+    }
+  }
+
+  handleChangeToHome = () => {
+    this.setState({
+      flag: 0
+    })
+  }
+
+
+  handleChangeToProfile = () => {
+    this.setState({
+      flag: 1
+    })
+  }
+
+  handleChangeToSearch = () => {
+    this.setState({
+      flag: 2
+    })
+  }
+
+
+  render() {
+    return (
+      <div className="App">
+        <NavigationBar 
+          flag={this.state.flag}
+          handleChangeToHome = {this.handleChangeToHome}
+          handleChangeToProfile = {this.handleChangeToProfile}
+          handleChangeToSearch = {this.handleChangeToSearch}
+        />
+        <Pages flag={this.state.flag} />
       </div>
-      <Profile />
-      <SearchPage />
-    </div>
-  );
+    );
+  }
 }
 
 export default App;
