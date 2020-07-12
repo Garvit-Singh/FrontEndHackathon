@@ -41,6 +41,10 @@
   border: 0px;
   outline: none;
 }
+.recent-activity{
+  font-weight: lighter;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 @media (max-width: 575.98px) {
 

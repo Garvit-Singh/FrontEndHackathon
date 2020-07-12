@@ -19,7 +19,7 @@ function ProfileActivity() {
       <div className='row no-gutters profile-activity'>
         <div className='col-md-8'>
           <div className="container mt-2 mb-5">
-          <h1 className="text-center">Recent Activities</h1>
+          <h1 className="text-center recent-activity">Recent Activities</h1>
           <div className="carousel slide" id = "RecentSlide" data-ride="carousel">
             <div className ="carousel-inner" role="listbox">
               {recentActivities.map((activity,key) => {

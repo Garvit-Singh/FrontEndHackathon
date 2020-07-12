@@ -4,13 +4,16 @@
   color: #239B56;
   font-weight: lighter;
 }
+.header-name{
+  margin-top: 200px;
+}
 .jumbotron{
   background-image: url(https://images.pexels.com/photos/2334/hill-meadow-tree-green.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  height: 65vh;
+  height: 100vh;
 }
 #information-section {
   background-color: #EAFAF1 ;

@@ -7,7 +7,7 @@ function HomeInformation() {
         <div className="row">
           <div className="col text-center">
             <div className="p-5">
-              <h1 className="display-4">About Us</h1>
+              <h1 className="display-4">Information</h1>
               <p>This is a website about solutions so non profits can better tell 
                 their stories of the causes and communities they support. 
                 Basically developing a solution so non profits can connect better
