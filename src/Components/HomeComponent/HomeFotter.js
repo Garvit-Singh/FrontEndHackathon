@@ -21,7 +21,6 @@ function HomeFotter() {
 <div className="list-group fotter-content">
   <button type="button" className="list-group-item bg-dark list-color">Vishal</button>
   <button type="button" className="list-group-item bg-dark list-color">Abhay</button>
-  <button type="button" className="list-group-item bg-dark list-color">Aditya</button>
   <button type="button" className="list-group-item bg-dark list-color">Garvit</button>
 </div>
           {/* </p> */}
