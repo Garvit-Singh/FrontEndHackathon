@@ -16,6 +16,8 @@ class ProfileActivity extends Component {
   ]
 }
   render(){
+
+    console.log(this.props,'from profile')
     return (
       <React.Fragment>
         <div className='row no-gutters profile-activity'>

@@ -29,7 +29,7 @@ class Profile extends Component {
         ngoDesc={this.state.user.ngoDescription}
         ngoCat={this.state.user.ngoCategory}
         contact={this.state.user.contact_Info}/>
-        <ProfileActivity ngoName={this.state.user.ngoName}/>
+        <ProfileActivity ngo_Recent_Activities={this.state.user.ngo_Recent_Activities}/>
       </React.Fragment>
     )
   }

@@ -20,11 +20,12 @@ class Login extends Component {
 		const data = this.state;
 		Axios.post('https://backendngodonor.herokuapp.com/ngo_/login', { email: data.email, password: data.password })
 			.then((res) => {
+        console.log(res.data,'from login response')
 				alert(res.data.message);
 				this.setState({
           token: res.data.token,
           id: res.data.user._id,
-					flag: true
+          flag: true
 				});
 				console.log(this.state);
 			})

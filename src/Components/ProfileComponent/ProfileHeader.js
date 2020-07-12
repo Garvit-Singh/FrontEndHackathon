@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 class ProfileHeader extends Component {
   render() {
-    console.log(this.props);
+    console.log(this.props,'from profile header');
     return (
       <React.Fragment>
         <div className="text-left profile-header" id="ngo-id">
@@ -19,7 +19,9 @@ class ProfileHeader extends Component {
             {this.props.ngoCat}
           </p>
           <p className="para-details ngo-contact_Info">
-            Contact Info:
+            Contact Info: {
+              this.props.contact===undefined ? '' : this.props.contact.Address
+            }
           </p>
           <p className="para-details ngo-contact_Info">
             {this.props.ngoName}@gmail.com

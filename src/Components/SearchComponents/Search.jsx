@@ -9,7 +9,7 @@ class SearchPage extends Component {
 				<div className="container mt-5">
 				<div className="row no-gutters clearfix mt-5">
 					{this.props.users.map((user, key) => {
-						return <SingleCard user={user} />;
+						return <SingleCard key={user._id} user={user} />;
 					})}
 				</div>
 				</div>
