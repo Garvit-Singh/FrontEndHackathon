@@ -9,7 +9,7 @@ function ProfileSideTransactionPanel() {
 					<img src={image} className="card-img-top" alt="..." />
 					<div className="card-body">
 						<h5 className="card-title">NGO Name</h5>
-						<a href="#" className="btn btn-primary">
+						<a href="#1" className="btn btn-primary">
 							Donate
 						</a>
 					</div>

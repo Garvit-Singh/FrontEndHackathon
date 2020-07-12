@@ -1,12 +1,15 @@
 import React from 'react'
+import './profile.css'
 import ProfileSideTransactionPanel from './ProfileSideTransactionPanel'
+import ProfileReviews from './ProfileReviews'
 
 function ProfileActivity() {
   return (
     <React.Fragment>
       <div className='row no-gutters profile-activity'>
         <div className='col-md-8'>
-          ProfileActivity
+          <div>ProfileActivity</div>
+          <ProfileReviews />
         </div>
         <ProfileSideTransactionPanel />
       </div>
