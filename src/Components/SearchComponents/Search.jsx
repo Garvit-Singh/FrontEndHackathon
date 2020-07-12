@@ -22,7 +22,7 @@ class SearchPage extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<div className="container">
+				<div className="container mt-5">
 				<div className="row no-gutters clearfix mt-5">
 					{this.state.ngo.map((ngo, key) => {
 						return <SingleCard ngo={this.state.ngo} />;
