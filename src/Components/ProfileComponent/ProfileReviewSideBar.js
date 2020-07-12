@@ -11,11 +11,11 @@ function ProfileReviewSideBar() {
   ]
   return (
     <React.Fragment>
-      <div class="container list-group review-side-bar">
-        <p href="#review-bar" class="list-group-item">Recent Reviews</p>
+      <div className="container ml-2 list-group review-side-bar">
+        <p href="#review-bar" className="list-group-item">Recent Reviews</p>
         {
           reviews.map(review => {
-            return <a href={`#reviewid`} key={review._id} class="list-group-item list-group-item-action">{review.title}</a>
+            return <a href={`#reviewid`} key={review._id} className="list-group-item list-group-item-action">{review.title}</a>
           })
         }
       </div>

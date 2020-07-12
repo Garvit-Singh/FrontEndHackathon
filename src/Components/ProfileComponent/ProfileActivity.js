@@ -1,18 +1,30 @@
-import React, {Component} from 'react'
+import React from 'react'
+import './profile.css'
 import ProfileSideTransactionPanel from './ProfileSideTransactionPanel'
+import ProfileReviews from './ProfileReviews'
+import ProfileReviewSideBar from './ProfileReviewSideBar'
 
-class ProfileActivity extends Component {
-  render() {
-    return(
+function ProfileActivity() {
+
+  const recentActivities = [
+    {
+      id: 'hello world'
+    },
+    {
+      id: 'hello World'
+    }
+  ]
+  return (
     <React.Fragment>
       <div className='row no-gutters profile-activity'>
         <div className='col-md-8'>
+          <div className="container mt-2 mb-5">
           <h1 className="text-center">Recent Activities</h1>
           <div className="carousel slide" id = "RecentSlide" data-ride="carousel">
             <div className ="carousel-inner" role="listbox">
-              {this.props.recentActivities.map((activity,key) => {
+              {recentActivities.map((activity,key) => {
                 if (key === 0) {
-                  return(<div className="carousel-item active">
+                  return(<div className="carousel-item active" key={activity.id}>
                         <div className="card">
                             <div className="card-block">
                                 <img className = "img-fluid" src = "https://www.thelogomix.com/files/imagecache/v3-logo-detail/coming-01.jpg" alt=""/>
@@ -20,7 +32,7 @@ class ProfileActivity extends Component {
                         </div>
                     </div>);
                 } else {
-                  return(<div className="carousel-item">
+                  return(<div className="carousel-item" key={activity.id}>
                         <div className="card">
                             <div className="card-block">
                                 <img className = "img-fluid" id="Logo" src = "https://www.thelogomix.com/files/imagecache/v3-logo-detail/coming-01.jpg" alt=""/>
@@ -36,18 +48,18 @@ class ProfileActivity extends Component {
             <a className = "carousel-control-next" href = "#RecentSlide" role ="button" data-slide = "next">
                 <span className = "carousel-control-next-icon"></span>
             </a>
-                
-              
             </div>
           </div>
+          </div>
+          <ProfileReviews />
         </div>
-        <ProfileSideTransactionPanel />
+        <div className='col-md-4'>
+          <ProfileSideTransactionPanel />
+          <ProfileReviewSideBar />
+        </div>
       </div>
     </React.Fragment>
   )
 }
-}
 
 export default ProfileActivity
-
-
