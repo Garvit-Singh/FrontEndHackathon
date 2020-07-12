@@ -40,3 +40,15 @@
 .review-side-bar p{
   background-color: #A3E4D7;
 }
+
+.carousel-control-next-icon:after {
+	content: '>';
+	font-size: 25px;
+	color: #d5f5e3;
+}
+
+.carousel-control-prev-icon:after {
+	content: '<';
+	font-size: 25px;
+	color: #d5f5e3;
+}
