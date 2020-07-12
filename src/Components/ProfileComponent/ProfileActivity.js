@@ -2,6 +2,7 @@ import React from 'react'
 import './profile.css'
 import ProfileSideTransactionPanel from './ProfileSideTransactionPanel'
 import ProfileReviews from './ProfileReviews'
+import ProfileReviewSideBar from './ProfileReviewSideBar'
 
 function ProfileActivity() {
   return (
@@ -11,7 +12,10 @@ function ProfileActivity() {
           <div>ProfileActivity</div>
           <ProfileReviews />
         </div>
-        <ProfileSideTransactionPanel />
+        <div className='col-md-4'>
+          <ProfileSideTransactionPanel />
+          <ProfileReviewSideBar />
+        </div>
       </div>
     </React.Fragment>
   )

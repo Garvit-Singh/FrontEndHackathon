@@ -11,10 +11,10 @@ function App() {
   return (
     <div className="App">
       <NavigationBar />
-      <Home />
+      {/* <Home />
       <div style={spacing}>
         Spacing
-      </div>
+      </div> */}
       <Profile />
     </div>
   );
