@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6fc77359.chunk.css",
+    "main.js": "/static/js/main.d2c8beb5.chunk.js",
+    "main.js.map": "/static/js/main.d2c8beb5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7e652ce6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7e652ce6.js.map",
+    "static/js/2.e5c68638.chunk.js": "/static/js/2.e5c68638.chunk.js",
+    "static/js/2.e5c68638.chunk.js.map": "/static/js/2.e5c68638.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ca029baa7dfab0aad89ccd2ded539902.js": "/precache-manifest.ca029baa7dfab0aad89ccd2ded539902.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.6fc77359.chunk.css.map": "/static/css/main.6fc77359.chunk.css.map",
+    "static/js/2.e5c68638.chunk.js.LICENSE.txt": "/static/js/2.e5c68638.chunk.js.LICENSE.txt",
+    "static/media/agriculture-close-up-cultivation-ecology-421999.jpg": "/static/media/agriculture-close-up-cultivation-ecology-421999.9000528f.jpg",
+    "static/media/brown-painted-wall-on-dim-light-1055613.jpg": "/static/media/brown-painted-wall-on-dim-light-1055613.0bdb0363.jpg",
+    "static/media/nature-sky-clouds-field-9198.jpg": "/static/media/nature-sky-clouds-field-9198.2c1bb96b.jpg",
+    "static/media/young-tomato-5808.jpg": "/static/media/young-tomato-5808.12ef51e6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e652ce6.js",
+    "static/js/2.e5c68638.chunk.js",
+    "static/css/main.6fc77359.chunk.css",
+    "static/js/main.d2c8beb5.chunk.js"
+  ]
+}
